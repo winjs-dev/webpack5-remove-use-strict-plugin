@@ -2,6 +2,8 @@
 
 [![Unit Test](https://github.com/sxzz/ts-starter/actions/workflows/unit-test.yml/badge.svg)](https://github.com/sxzz/ts-starter/actions/workflows/unit-test.yml)
 
+My awesome typescript library
+
 <!-- Remove belows -->
 
 Forked from [egoist/ts-starter](https://github.com/egoist/ts-starter)
