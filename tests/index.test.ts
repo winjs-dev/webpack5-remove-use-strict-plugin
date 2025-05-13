@@ -1,6 +1,7 @@
 import { assert, test } from 'vitest'
-import { foo } from '../src'
+import Webpack5RemoveUseStrictPlugin from '../src'
 
-test('simple', () => {
-  assert.equal(foo, 'foo')
-})
+test('插件实例化', () => {
+  const plugin = new Webpack5RemoveUseStrictPlugin()
+  assert.ok(plugin instanceof Webpack5RemoveUseStrictPlugin)
+}) 

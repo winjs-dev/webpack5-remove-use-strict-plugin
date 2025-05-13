@@ -1,9 +1,13 @@
+/*
+ * @FilePath: /webpack5-remove-use-strict-plugin/tsdown.config.ts
+ */
 import { defineConfig } from 'tsdown'
 
 export default defineConfig({
   entry: ['./src/index.ts'],
-  target: 'node20.18',
+  target: 'node16',
   clean: true,
   dts: true,
-  platform: 'neutral',
+  platform: 'node',
+  format: ['esm', 'cjs'],
 })
