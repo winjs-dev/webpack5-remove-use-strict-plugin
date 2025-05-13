@@ -32,7 +32,7 @@ pnpm add --save-dev @winner-fed/webpack5-remove-use-strict-plugin
 ### CommonJS 方式
 
 ```js
-const Webpack5RemoveUseStrictPlugin = require('@winner-fed/webpack5-remove-use-strict-plugin').default;
+const Webpack5RemoveUseStrictPlugin = require('@winner-fed/webpack5-remove-use-strict-plugin');
 
 module.exports = {
   // ... 其他 webpack 配置
