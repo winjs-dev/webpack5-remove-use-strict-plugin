@@ -32,29 +32,29 @@ pnpm add --save-dev @winner-fed/webpack5-remove-use-strict-plugin
 ### CommonJS 方式
 
 ```js
-const Webpack5RemoveUseStrictPlugin = require('@winner-fed/webpack5-remove-use-strict-plugin');
+const Webpack5RemoveUseStrictPlugin = require('@winner-fed/webpack5-remove-use-strict-plugin')
 
 module.exports = {
   // ... 其他 webpack 配置
   plugins: [
     // ... 其他插件
-    new Webpack5RemoveUseStrictPlugin()
-  ]
-};
+    new Webpack5RemoveUseStrictPlugin(),
+  ],
+}
 ```
 
 ### ES Module 方式
 
 ```js
-import Webpack5RemoveUseStrictPlugin from '@winner-fed/webpack5-remove-use-strict-plugin';
+import Webpack5RemoveUseStrictPlugin from '@winner-fed/webpack5-remove-use-strict-plugin'
 
 export default {
   // ... 其他 webpack 配置
   plugins: [
     // ... 其他插件
-    new Webpack5RemoveUseStrictPlugin()
-  ]
-};
+    new Webpack5RemoveUseStrictPlugin(),
+  ],
+}
 ```
 
 ## 工作原理
