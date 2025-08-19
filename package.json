@@ -1,7 +1,7 @@
 {
   "name": "@winner-fed/webpack5-remove-use-strict-plugin",
   "version": "0.0.1",
-  "packageManager": "pnpm@10.14.0",
+  "packageManager": "pnpm@10.15.0",
   "description": "Webpack 5 plugin to remove 'use strict' from the generated code",
   "type": "module",
   "license": "MIT",
